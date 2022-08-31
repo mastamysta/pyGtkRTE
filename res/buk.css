@@ -1,0 +1,55 @@
+@define-color --main-bg-col #edf5ef;
+@define-color --but-hover #dae6dd;
+
+.but_border {
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: #000077;
+}
+
+.but_test {
+    border-image: none;
+  background-image: none;
+  background-color: green;
+}
+
+.font {
+	font-size: 17px;
+	font-stretch: expanded;
+	color: #FF0000;
+	
+}
+
+box {
+	background-color: @--main-bg-col;
+	background: @--main-bg-col;
+}
+
+menubar {
+	background-color: @--main-bg-col;
+	background: @--main-bg-col;
+}
+
+notebook {
+	background-color: @--main-bg-col;
+	background: @--main-bg-col;
+}
+
+toolbar {
+	border-width: 2px;
+	border-color: #DDDDDD;
+	background-color: @--main-bg-col;
+	background: @--main-bg-col;
+}
+
+toolbutton button {
+	border-width: 0px;
+	border-radius: 40px;
+	background-color: @--main-bg-col;
+	background: @--main-bg-col;
+}
+
+toolbutton button:hover {
+	background-color: @--but-hover;
+	background: @--but-hover;
+}
