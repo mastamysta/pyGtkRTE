@@ -1,6 +1,8 @@
 # pyGtkRTE
 RichTextEditor in Python GTK+3
 
+![Screencast from 04-08-24 16_35_06](https://github.com/user-attachments/assets/f4af64f6-dc99-497b-a3ac-120e2d5ff91d)
+
 This project is a rich text editor, with support for all expected rich-text editing functionality aswell as spell checking. Image processing is in development.
 
 To run, this project requires GTK+3 to be installed aswell as Hunspell:
